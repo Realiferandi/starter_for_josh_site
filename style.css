@@ -1,0 +1,63 @@
+body{
+    font-size:16px;
+    font-family:arial,sans-serif;
+}
+
+.navbar{
+font-size:0.875em;/*since we have set the body font-size to 16px this can also be written as 1em, so if we want our navbar menu items to be smaller as per the design comp it needs to be less than 1em, the formula is 14(the size of the font in photoshop)divided by 16 which equals 0.875em*/
+
+}
+
+a{
+color:#a99c9c ;
+}
+
+a:hover{
+color: #ed7d1e;
+       
+}
+
+
+.nav > li > a:hover {
+    background-color:transparent;
+}
+
+.orange{
+    color:darkorange;
+    font-size:2.0em;
+
+}
+.josh{
+/*    color:darkorange;*/
+      font-size:2.0em;
+    
+}    
+
+.navbar-toggle .iconbar{
+  background-color:white;  
+    
+    
+}
+.herobg {
+    background: url(images/header-bg.jpg);
+    background-size:cover;
+    
+    
+}
+
+.herobg h1 {
+        float:right;
+        color:#ffff;
+        width:341px;
+        font-size:6.1em;
+        letter-spacing:-10px;
+        font-weight:800;
+        line-height:75%;
+        margin-top:140px;
+        text-align:right;
+        padding-bottom:10%;
+    
+}
+
+
+
