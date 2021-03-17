@@ -36,7 +36,11 @@
 	<!-- This is the traditional favicon.
 		 - size: 16x16 or 32x32
 		 - transparency is OK -->
-    <!—Google fonts  --><link href="https://fonts.googleapis.com/css?family=Raleway:400,800" rel="stylesheet"><!-- CSS:  --><?php wp_head(); ?> 
+    <!—Google fonts  --><link href="https://fonts.googleapis.com/css?family=Raleway:400,800" rel="stylesheet">
+      <link rel="stylesheet" href="style.css"/>
+      <link rel="stylesheet" href="responsive.css" />
+    
+    <!-- CSS:  --><?php wp_head(); ?> 
 
     </head>
 
