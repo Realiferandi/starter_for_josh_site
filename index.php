@@ -33,8 +33,7 @@ wp_reset_query();?>
               <h3 class="text-center article-title">LATEST ARTICLES</h3>
               </div>
               
-                 <div class="col-md-4 article-cent">
-<?php $post_id = 145;
+                 <div class="col-md-4 article-cent"><?php $post_id = 145;
 $queried_post = get_post($post_id);?>
 <?php echo get_the_post_thumbnail($queried_post, 'full', array('class' => 'img-responsive')); ?>
 <h4><?php echo $queried_post->post_title; ?></h4>
@@ -43,8 +42,7 @@ $queried_post = get_post($post_id);?>
 
           </div>
               
-                   <div class="col-md-4 article-cent">
-<?php $post_id = 147;
+                   <div class="col-md-4 article-cent"><?php $post_id = 147;
 $queried_post = get_post($post_id);?>
 <?php echo get_the_post_thumbnail($queried_post, 'full', array('class' => 'img-responsive')); ?>
 <h4><?php echo $queried_post->post_title; ?></h4>
@@ -52,8 +50,7 @@ $queried_post = get_post($post_id);?>
 <?php echo '<a class="readmore" href="'.get_permalink($queried_post).'"><br>CONTINUE READING</a>';?>  
           </div>
               
-                   <div class="col-md-4 article-cent">
-<?php $post_id = 149;
+                   <div class="col-md-4 article-cent"><?php $post_id = 149;
 $queried_post = get_post($post_id);?>
 <?php echo get_the_post_thumbnail($queried_post, 'full', array('class' => 'img-responsive')); ?>
 <h4><?php echo $queried_post->post_title; ?></h4>
@@ -61,10 +58,7 @@ $queried_post = get_post($post_id);?>
 <?php echo '<a class="readmore" href="'.get_permalink($queried_post).'"><br>CONTINUE READING</a>';?> 
           </div>
               
-              
-              
-              
-              
+                
           </div> <!--row-->
               
           </div> <!--container-->
