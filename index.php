@@ -34,12 +34,13 @@ wp_reset_query();?>
               </div>
               
                  <div class="col-md-4 article-cent">
-        <img class="img-responsive" alt=“portait” src="http://206.189.45.97/~mesh15/wp-content/themes/starter_for_josh_site/images/image-1.jpg">
-                  <h4> A PORTRAIT</h4>
-                  <p class="date">12 December 2020</p>
-                  <p>STS has never been shy of seeking new terrains of  investigation. More and  more  STS s cholars are  starting to explore and intervene in the arts.  This object of study  brings  new challenges and  opportunities that we want  to explore in this session.   We would  like to gather first of all simply  new kinds of  knowledge arising from  STS study  of the arts. 
-                  </p>
-                  <p class="readmore"> CONTINUE READING</p>
+<?php $post_id = 145;
+$queried_post = get_post($post_id);?>
+<?php echo get_the_post_thumbnail($queried_post, 'full', array('class' => 'img-responsive')); ?>
+<h4><?php echo $queried_post->post_title; ?></h4>
+<?php echo $queried_post->post_excerpt; ?>
+<?php echo '<a class="readmore" href="'.get_permalink($queried_post).'"><br>CONTINUE READING</a>';?>                       
+
           </div>
               
                    <div class="col-md-4 article-cent">
