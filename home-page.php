@@ -7,8 +7,8 @@
 <section class="container-fluid aboutbg text-center">
     <div class="container">
         <!--placeholder for col1 -->
-        <h2><?php the_field('titleforaboutme'); ?></h2><!--  custom field for the aboutme content-->
-        <p class="particle"><?php the_field('subtitleforaboutme'); ?></p>
+        <h2 class="animated fadeInLeft"><?php the_field('titleforaboutme'); ?></h2><!--  custom field for the aboutme content-->
+        <p class="particle animated fadeInRight"><?php the_field('subtitleforaboutme'); ?></p>
         <p class="about-text"><?php the_field('paragraphforaboutme'); ?></p>
 
 
